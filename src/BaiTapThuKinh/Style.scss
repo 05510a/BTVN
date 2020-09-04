@@ -1,0 +1,55 @@
+$color-White:white;
+.Cover-background{
+    
+    background-color: rgba(0, 0, 0, 0.39);
+    
+}
+.appGlasses{
+    
+    background-image:url(./glassesImage/background.jpg);
+    
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px 0;
+}
+.row{
+    margin: auto;
+    padding: 70px 0;
+    justify-content: space-between;
+}
+.ImgGlasses{
+        position: relative;
+    padding: 0;
+    position: relative;
+    .Glasses__detail{
+        width: 300px;
+        height: 120px;
+        background-color: rgba(255, 166, 0, 0.4);
+        position: absolute;
+        bottom: 0;
+        left: 135px;
+        
+        h3{
+            color: blue;
+        }
+        p{
+         
+          color: $color-White;
+          font-size: 15px;
+        }
+        
+    }
+    .glass{
+        width: 27%;
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    }
+}
+.ListGlasses{
+    background-color: $color-White;
+    padding: 10px;
+    
+}

@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import BT3 from './BTVN/BT3.js';
-import BT3Header from './BTVN/BT3Header';
+import BaiTapThuKinh from './BaiTapThuKinh/BaiTapThuKinh';
 
 function App() {
   return (
     <div className="App">
-      <BT3/>
+      <BaiTapThuKinh/>
     </div>
   );
 }
